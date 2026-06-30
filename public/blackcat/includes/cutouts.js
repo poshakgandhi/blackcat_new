@@ -1170,6 +1170,7 @@
   };
 
   const CUTOUT_FOV = 0.025; // 1.5 arcminutes (1.5 / 60 degrees)
+  const ZOOM_FOV = 0.005556; // 20 arcseconds (20 / 3600 degrees)
   const CUTOUT_SIZE = 300; // 300x300px image resolution (used for popup, scaled down for thumbnail)
 
   // 3. Dynamic Styles Injector
@@ -1270,7 +1271,7 @@
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12), 0 1px 8px rgba(0, 0, 0, 0.06);
-        width: 324px; /* 300px image + padding */
+        width: 536px; /* 2 * 250px image + 12px gap + 24px padding */
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
         box-sizing: border-box;
         opacity: 0;
@@ -1298,9 +1299,27 @@
         text-transform: uppercase;
         letter-spacing: 0.5px;
       }
+      .sky-popup-images-container {
+        display: flex;
+        gap: 12px;
+        margin-top: 8px;
+      }
+      .sky-popup-image-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .sky-popup-image-label {
+        font-size: 10px;
+        font-weight: 600;
+        color: #555;
+        margin-bottom: 4px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
       .sky-popup-image {
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
         object-fit: cover;
         border-radius: 6px;
         border: 1px solid rgba(0,0,0,0.08);
@@ -1388,12 +1407,12 @@
   }
 
   // 6. Generate Cutout URL
-  function getCutoutUrl(surveyId, ra, dec) {
-    return `https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=${encodeURIComponent(surveyId)}&ra=${ra}&dec=${dec}&fov=${CUTOUT_FOV}&width=${CUTOUT_SIZE}&height=${CUTOUT_SIZE}&format=jpg`;
+  function getCutoutUrl(surveyId, ra, dec, fov = CUTOUT_FOV) {
+    return `https://alasky.cds.unistra.fr/hips-image-services/hips2fits?hips=${encodeURIComponent(surveyId)}&ra=${ra}&dec=${dec}&fov=${fov}&width=${CUTOUT_SIZE}&height=${CUTOUT_SIZE}&format=jpg`;
   }
 
   // 7. Setup Hover Tooltip Elements
-  let popupEl, popupTitle, popupSubtitle, popupImage, popupCoords;
+  let popupEl, popupTitle, popupSubtitle, popupImageWide, popupImageZoom, popupCoords;
 
   function initPopup() {
     popupEl = document.createElement('div');
@@ -1407,9 +1426,34 @@
     popupSubtitle.className = 'sky-popup-subtitle';
     popupEl.appendChild(popupSubtitle);
 
-    popupImage = document.createElement('img');
-    popupImage.className = 'sky-popup-image';
-    popupEl.appendChild(popupImage);
+    const imagesContainer = document.createElement('div');
+    imagesContainer.className = 'sky-popup-images-container';
+
+    // Wide image wrapper
+    const wideWrap = document.createElement('div');
+    wideWrap.className = 'sky-popup-image-wrapper';
+    const wideLabel = document.createElement('div');
+    wideLabel.className = 'sky-popup-image-label';
+    wideLabel.textContent = "Wide Field (1.5')";
+    popupImageWide = document.createElement('img');
+    popupImageWide.className = 'sky-popup-image';
+    wideWrap.appendChild(wideLabel);
+    wideWrap.appendChild(popupImageWide);
+    imagesContainer.appendChild(wideWrap);
+
+    // Zoomed image wrapper
+    const zoomWrap = document.createElement('div');
+    zoomWrap.className = 'sky-popup-image-wrapper';
+    const zoomLabel = document.createElement('div');
+    zoomLabel.className = 'sky-popup-image-label';
+    zoomLabel.textContent = 'Zoom (20")';
+    popupImageZoom = document.createElement('img');
+    popupImageZoom.className = 'sky-popup-image';
+    zoomWrap.appendChild(zoomLabel);
+    zoomWrap.appendChild(popupImageZoom);
+    imagesContainer.appendChild(zoomWrap);
+
+    popupEl.appendChild(imagesContainer);
 
     popupCoords = document.createElement('div');
     popupCoords.className = 'sky-popup-coords';
@@ -1418,13 +1462,14 @@
     document.body.appendChild(popupEl);
   }
 
-  function showPopup(thumbnail, transientName, surveyName, surveyType, imgUrl, raText, decText) {
+  function showPopup(thumbnail, transientName, surveyName, surveyType, imgUrlWide, imgUrlZoom, raText, decText) {
     if (!popupEl) initPopup();
 
     popupTitle.textContent = transientName;
     popupSubtitle.textContent = `${surveyType}: ${surveyName}`;
-    popupImage.src = imgUrl;
-    popupCoords.textContent = `RA: ${raText} | DEC: ${decText} (1.5' FOV)`;
+    popupImageWide.src = imgUrlWide;
+    popupImageZoom.src = imgUrlZoom;
+    popupCoords.textContent = `RA: ${raText} | DEC: ${decText}`;
 
     popupEl.classList.add('visible');
   }
@@ -1433,8 +1478,8 @@
     if (!popupEl) return;
     let left = e.clientX + 15;
     let top = e.clientY + 15;
-    const popupWidth = 324;
-    const popupHeight = 360;
+    const popupWidth = 536; // 2 * 250px image + 12px gap + 24px padding
+    const popupHeight = 330; // 250px image + label + header + coordinates + padding
 
     // Boundary check so it stays inside the viewport using clientX/clientY
     if (left + popupWidth > window.innerWidth) {
@@ -1454,7 +1499,9 @@
     // Polite cleanup to avoid flash of wrong image on next show
     setTimeout(() => {
       if (!popupEl.classList.contains('visible')) {
-        popupImage.src = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
+        const blankImg = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
+        popupImageWide.src = blankImg;
+        popupImageZoom.src = blankImg;
       }
     }, 150);
   }
@@ -1468,7 +1515,8 @@
     const xrayWrap = document.createElement('div');
     xrayWrap.className = 'sky-thumbnail-wrapper';
     if (xraySurvey) {
-      const imgUrl = getCutoutUrl(xraySurvey.id, raDeg, decDeg);
+      const imgUrl = getCutoutUrl(xraySurvey.id, raDeg, decDeg, CUTOUT_FOV);
+      const zoomUrl = getCutoutUrl(xraySurvey.id, raDeg, decDeg, ZOOM_FOV);
       const img = document.createElement('img');
       img.className = 'sky-thumbnail';
       img.src = imgUrl;
@@ -1477,7 +1525,7 @@
       img.title = `X-ray: ${xraySurvey.name}`;
 
       img.addEventListener('mouseover', (e) => {
-        showPopup(img, transientName, xraySurvey.name, 'X-ray (0.2-10 keV)', imgUrl, raText, decText);
+        showPopup(img, transientName, xraySurvey.name, 'X-ray (0.2-10 keV)', imgUrl, zoomUrl, raText, decText);
         movePopup(e);
       });
       img.addEventListener('mousemove', movePopup);
@@ -1503,7 +1551,8 @@
     const optWrap = document.createElement('div');
     optWrap.className = 'sky-thumbnail-wrapper';
     if (opticalSurvey) {
-      const imgUrl = getCutoutUrl(opticalSurvey.id, raDeg, decDeg);
+      const imgUrl = getCutoutUrl(opticalSurvey.id, raDeg, decDeg, CUTOUT_FOV);
+      const zoomUrl = getCutoutUrl(opticalSurvey.id, raDeg, decDeg, ZOOM_FOV);
       const img = document.createElement('img');
       img.className = 'sky-thumbnail';
       img.src = imgUrl;
@@ -1512,7 +1561,7 @@
       img.title = `Optical: ${opticalSurvey.name}`;
 
       img.addEventListener('mouseover', (e) => {
-        showPopup(img, transientName, opticalSurvey.name, 'Optical color view', imgUrl, raText, decText);
+        showPopup(img, transientName, opticalSurvey.name, 'Optical color view', imgUrl, zoomUrl, raText, decText);
         movePopup(e);
       });
       img.addEventListener('mousemove', movePopup);
@@ -1538,7 +1587,8 @@
     const irWrap = document.createElement('div');
     irWrap.className = 'sky-thumbnail-wrapper';
     if (irSurvey) {
-      const imgUrl = getCutoutUrl(irSurvey.id, raDeg, decDeg);
+      const imgUrl = getCutoutUrl(irSurvey.id, raDeg, decDeg, CUTOUT_FOV);
+      const zoomUrl = getCutoutUrl(irSurvey.id, raDeg, decDeg, ZOOM_FOV);
       const img = document.createElement('img');
       img.className = 'sky-thumbnail';
       img.src = imgUrl;
@@ -1547,7 +1597,7 @@
       img.title = `IR: ${irSurvey.name}`;
 
       img.addEventListener('mouseover', (e) => {
-        showPopup(img, transientName, irSurvey.name, 'Infrared view', imgUrl, raText, decText);
+        showPopup(img, transientName, irSurvey.name, 'Infrared view', imgUrl, zoomUrl, raText, decText);
         movePopup(e);
       });
       img.addEventListener('mousemove', movePopup);
