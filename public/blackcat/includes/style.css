@@ -1,0 +1,321 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+height: 100%;
+/* The html and body elements cannot have any padding or margin. */
+}
+
+/* Scroll beahaviour */
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 960px) {
+      #footer {
+      margin-left: -20px;
+      margin-right: -20px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+}
+
+/* Links decoration */
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 2px 2px;
+}
+
+a:hover {
+  color: black;
+}
+
+/* Horizontal line style */
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color:#f1f1f1;
+  height: 1px;
+}
+
+/* Image style */
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Sortable tables */
+table.sortable thead {
+    font-weight: bold;
+    cursor: default;
+    padding: 0px;
+    background-color: #f1f1f1;
+    /*position: fixed;*/
+    /*width: 100%;*/
+}
+
+table#fchart {
+    table-layout: fixed;
+}
+
+tr.border_bottom td {
+  border-bottom:1pt solid black;
+}
+
+
+/* #### ID definitions #### */
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -60px;
+}
+
+/* Set the fixed height of the footer here */
+#push, #footer {
+    height: 55px;
+}
+
+#footer {
+    background-color: #f1f1f1;
+    text-align: left;
+    max-height: 50px;
+}
+
+#footer-txt {
+    padding: 5px;
+}
+
+#logos {
+   height: 45px;
+   width: 45px;
+   padding: 0px;
+}
+
+/* Fixed Headers (list only) */
+
+#list th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: #f1f1f1;
+}
+
+#list th[scope=row] {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  z-index: 1;
+}
+
+#list th[scope=row] {
+  vertical-align: top;
+}
+
+#list th:hover{
+  background-color: #ddd;}
+
+#list {
+    padding: 0px;
+    margin: 0px;
+    /*border: 0px;*/
+}
+
+#coord {
+  border-bottom:0pt solid black;
+  table-layout: fixed;
+  font-weight: bold;
+  cursor: default;
+  padding: 0px
+}
+
+#coord:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#magnitudes {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  /*table-layout: fixed;*/
+}
+
+#magnitudes td, #magnitudes th {
+  /*border: 0px solid #ddd;*/
+  padding: 8px;
+}
+
+#magnitudes th { /* table header atributes */
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  /* background-color: #4CAF50; /* green */
+  /* color: white; */
+}
+
+#magnitudes th:nth-child(1){width:5px;}
+
+#compar-stars td {
+  text-align: center;
+}
+
+#chart {
+    padding: 5px  !important;
+    }
+
+#chart-info {
+    padding: 5px  !important;
+    }
+
+#aladin-lite-div {
+    margin: 5px;
+    /*margin:5px 50px 50px 250px;*/
+}
+
+/* Go to Top scrolling button */
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #000; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 2px; /* Some padding */
+  font-size: 18px; /* Increase font size */
+  width: 50px;
+  height: 50px;
+}
+
+#myBtn:hover {
+  background-color: #aaa; /* Add a dark-grey background on hover */
+}
+
+
+
+/* ### Class definitions ### */
+.pointer {cursor: pointer;}
+
+/* Column width definitions */
+.column-id-list {
+   width: 1%;
+}
+
+.column-name-list {
+	width: 15%;
+}
+
+.column-coord-list {
+	width: 2%;
+}
+
+.column-gal-list {
+	width: 2%;
+}
+
+.column-mout-list {
+	width: 3%;
+}
+
+.column-mqui-list {
+	width: 3%;
+}
+
+.column-dist-list {
+	width: 8%;
+}
+
+.column-fx-list {
+	width: 16%;
+}
+
+.column-porb-list {
+	width: 4%;
+}
+
+.column-mout-list1 {
+	max-width: 100px;
+}
+
+.column-mout-list2 {
+	max-width: 5px;
+}
+
+.column-mout-list3 {
+	max-width: 35px;
+}
+
+.column-mout-list4 {
+	max-width: 45px;
+}
+
+.column-dist {
+	min-width: 90px;
+}
+
+.column-name {
+	min-width: 240px;
+}
+
+.column-val {
+	min-width: 195px;
+}
+
+.column-ref {
+	min-width: 200px;
+}
+
+.column-notes {
+	min-width: 635px;
+}
+
+.column-coord {
+	min-width: 395px;
+}
+
+.column-mag {
+	min-width: 100px;
+}
+
+.table-mag {
+	min-width: 600px;
+}
+
+
+/* Next/Previous buttom options */
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.change {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.button1 {border-radius: 10px; /* Rounded corners */}
+.button2 {border-radius: 50%; /* Round button */}
+
+
