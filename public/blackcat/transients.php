@@ -69,6 +69,7 @@ if (!isSotonIP($user_ip)) {
     
 <div class="container">
    <h1>BlackCAT<small> A Catalog of Stellar-Mass Black Holes in X-ray Binaries</small></h1>
+   <p><em>All credit for the catalogue to Corral-Santana et al. This page only includes additional thumbnails.</em></p>
 
    <div class="navbar navbar-default col-md-12" role="navigation" >
       <div class="navbar-header">
@@ -81,10 +82,10 @@ if (!isSotonIP($user_ip)) {
       </div>
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-        <li><a href="index.php" title="Homepage"><i class="fa fa-home"></i> Home</a></li>
+        <li><a href="https://astro.puc.cl/BlackCAT/index.php" title="Homepage"><i class="fa fa-home"></i> Home</a></li>
         <li><a href="transients.php" title="Catalogue of Transients">Transients</a></li>
-        <li><a href="references.php" title="References">References</a></li>
-        <li><a href="citation.php" title="Citation, feedback and acknowledgements">Acknowledgement</a></li> 
+        <li><a href="https://astro.puc.cl/BlackCAT/references.php" title="References">References</a></li>
+        <li><a href="https://astro.puc.cl/BlackCAT/citation.php" title="Citation, feedback and acknowledgements">Acknowledgement</a></li> 
 
       </div><!-- /.navbar-collapse -->
    </div><!--/.container-fluid -->
@@ -121,10 +122,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=73">73</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=73">73</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=73">MAXI J1744-294           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=73">MAXI J1744-294           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -156,10 +157,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=72">72</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=72">72</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=72">Swift J151857.0-572147           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=72">Swift J151857.0-572147           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -191,10 +192,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:bold>
         <td class="column-id-list">
-           <a href="info.php?id=71">71</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=71">71</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=71">Swift J1727.8-1613           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=71">Swift J1727.8-1613           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -227,10 +228,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=70">70</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=70">70</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=70">MAXI J1803-298           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=70">MAXI J1803-298           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -262,10 +263,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=69">69</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=69">69</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=69">AT 2019wey           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=69">AT 2019wey           <br>
            SRGA J043520.9+552226 =  ZTF19acwrvzk = ATLAS19bcxp</a>
         </td>
         <td class="column-coord-list">
@@ -297,10 +298,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=68">68</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=68">68</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=68">MAXI J0637-430           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=68">MAXI J0637-430           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -332,10 +333,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=67">67</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=67">67</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=67">MAXI J1348-630           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=67">MAXI J1348-630           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -367,10 +368,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=66">66</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=66">66</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=66">Swift J1728.9-3613           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=66">Swift J1728.9-3613           <br>
            MAXI J1728-360</a>
         </td>
         <td class="column-coord-list">
@@ -402,10 +403,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=65">65</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=65">65</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=65">MAXI J1810-222           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=65">MAXI J1810-222           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -437,10 +438,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=64">64</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=64">64</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=64">MAXI J1631-479           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=64">MAXI J1631-479           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -472,10 +473,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:bold>
         <td class="column-id-list">
-           <a href="info.php?id=63">63</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=63">63</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=63">MAXI J1820+070           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=63">MAXI J1820+070           <br>
            ASASSN-18ey = V3721 Oph</a>
         </td>
         <td class="column-coord-list">
@@ -508,10 +509,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=62">62</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=62">62</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=62">MAXI J1813-095           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=62">MAXI J1813-095           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -543,10 +544,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=61">61</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=61">61</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=61">Swift J1658.2-4242           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=61">Swift J1658.2-4242           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -578,10 +579,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=60">60</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=60">60</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=60">MAXI J1535-571           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=60">MAXI J1535-571           <br>
            GRB 170902A</a>
         </td>
         <td class="column-coord-list">
@@ -613,10 +614,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=59">59</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=59">59</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=59">IGR J17454-2919           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=59">IGR J17454-2919           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -648,10 +649,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=58">58</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=58">58</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=58">IGR J17451-3022           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=58">IGR J17451-3022           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -683,10 +684,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=57">57</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=57">57</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=57">MAXI J1828-249           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=57">MAXI J1828-249           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -718,10 +719,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=56">56</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=56">56</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=56">Swift J1753.7-2544           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=56">Swift J1753.7-2544           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -753,10 +754,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=55">55</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=55">55</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=55">Swift J174510.8-262411           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=55">Swift J174510.8-262411           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -788,10 +789,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=54">54</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=54">54</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=54">Swift J1910.2-0546           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=54">Swift J1910.2-0546           <br>
            MAXI J1910-057</a>
         </td>
         <td class="column-coord-list">
@@ -823,10 +824,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:bold>
         <td class="column-id-list">
-           <a href="info.php?id=53">53</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=53">53</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=53">MAXI J1305-704           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=53">MAXI J1305-704           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -859,10 +860,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=52">52</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=52">52</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=52">MAXI J1836-194           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=52">MAXI J1836-194           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -894,10 +895,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=51">51</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=51">51</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=51">MAXI J1543-564           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=51">MAXI J1543-564           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -929,10 +930,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=50">50</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=50">50</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=50">Swift J1357.2-0933           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=50">Swift J1357.2-0933           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -964,10 +965,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=49">49</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=49">49</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=49">MAXI J1659-152           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=49">MAXI J1659-152           <br>
            V2862 Oph</a>
         </td>
         <td class="column-coord-list">
@@ -999,10 +1000,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=48">48</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=48">48</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=48">XTE J1752-223           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=48">XTE J1752-223           <br>
            V5678 Sgr</a>
         </td>
         <td class="column-coord-list">
@@ -1034,10 +1035,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=47">47</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=47">47</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=47">XTE J1652-453           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=47">XTE J1652-453           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -1069,10 +1070,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=46">46</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=46">46</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=46">Swift J1539.2-6227           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=46">Swift J1539.2-6227           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -1104,10 +1105,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=45">45</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=45">45</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=45">Swift J1842.5-1124           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=45">Swift J1842.5-1124           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -1139,10 +1140,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=44">44</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=44">44</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=44">Swift J174540.2-290005           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=44">Swift J174540.2-290005           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -1174,10 +1175,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=43">43</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=43">43</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=43">IGR J17497-2821           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=43">IGR J17497-2821           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -1209,10 +1210,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=42">42</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=42">42</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=42">XTE J1817-330           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=42">XTE J1817-330           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -1244,10 +1245,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=41">41</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=41">41</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=41">XTE J1726-476           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=41">XTE J1726-476           <br>
            IGR J17269-4737</a>
         </td>
         <td class="column-coord-list">
@@ -1279,10 +1280,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=40">40</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=40">40</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=40">XTE J1818-245           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=40">XTE J1818-245           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -1314,10 +1315,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=39">39</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=39">39</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=39">Swift J1753.5-0127           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=39">Swift J1753.5-0127           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -1349,10 +1350,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=38">38</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=38">38</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=38">IGR J17098-3628           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=38">IGR J17098-3628           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -1384,10 +1385,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=37">37</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=37">37</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=37">IGR J17091-3624           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=37">IGR J17091-3624           <br>
            SAX J1709.1-3624</a>
         </td>
         <td class="column-coord-list">
@@ -1419,10 +1420,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=36">36</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=36">36</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=36">XTE J1720-318           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=36">XTE J1720-318           <br>
            V1228 Sco</a>
         </td>
         <td class="column-coord-list">
@@ -1454,10 +1455,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=35">35</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=35">35</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=35">XTE J1908+094           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=35">XTE J1908+094           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -1489,10 +1490,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=34">34</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=34">34</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=34">SAX J1711.6-3808           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=34">SAX J1711.6-3808           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -1524,10 +1525,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:bold>
         <td class="column-id-list">
-           <a href="info.php?id=33">33</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=33">33</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=33">XTE J1650-500           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=33">XTE J1650-500           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -1560,10 +1561,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:bold>
         <td class="column-id-list">
-           <a href="info.php?id=32">32</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=32">32</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=32">XTE J1118+480           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=32">XTE J1118+480           <br>
            KV UMa</a>
         </td>
         <td class="column-coord-list">
@@ -1596,10 +1597,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:bold>
         <td class="column-id-list">
-           <a href="info.php?id=31">31</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=31">31</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=31">XTE J1859+226           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=31">XTE J1859+226           <br>
            V406 Vul</a>
         </td>
         <td class="column-coord-list">
@@ -1632,10 +1633,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:bold>
         <td class="column-id-list">
-           <a href="info.php?id=30">30</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=30">30</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=30">SAX J1819.3-2525           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=30">SAX J1819.3-2525           <br>
            V4641 Sgr</a>
         </td>
         <td class="column-coord-list">
@@ -1668,10 +1669,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=29">29</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=29">29</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=29">XTE J2012+381           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=29">XTE J2012+381           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -1703,10 +1704,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=28">28</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=28">28</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=28">XTE J1748-288           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=28">XTE J1748-288           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -1738,10 +1739,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:bold>
         <td class="column-id-list">
-           <a href="info.php?id=27">27</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=27">27</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=27">XTE J1550-564           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=27">XTE J1550-564           <br>
            V381 Nor</a>
         </td>
         <td class="column-coord-list">
@@ -1774,10 +1775,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=26">26</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=26">26</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=26">XTE J1755-324           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=26">XTE J1755-324           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -1809,10 +1810,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=25">25</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=25">25</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=25">GRS 1737-31           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=25">GRS 1737-31           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -1844,10 +1845,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=24">24</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=24">24</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=24">GRS 1739-278           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=24">GRS 1739-278           <br>
            V2606 Oph</a>
         </td>
         <td class="column-coord-list">
@@ -1879,10 +1880,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=23">23</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=23">23</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=23">XTE J1856+053           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=23">XTE J1856+053           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -1914,10 +1915,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=22">22</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=22">22</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=22">GRS 1730-312           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=22">GRS 1730-312           <br>
            KS 1730-312</a>
         </td>
         <td class="column-coord-list">
@@ -1949,10 +1950,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:bold>
         <td class="column-id-list">
-           <a href="info.php?id=21">21</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=21">21</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=21">GRO J1655-40           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=21">GRO J1655-40           <br>
            N Sco 1994 = V1033 Sco</a>
         </td>
         <td class="column-coord-list">
@@ -1985,10 +1986,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=20">20</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=20">20</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=20">GRS 1716-249           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=20">GRS 1716-249           <br>
            N Oph 1993 = V2293 Oph</a>
         </td>
         <td class="column-coord-list">
@@ -2020,10 +2021,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:bold>
         <td class="column-id-list">
-           <a href="info.php?id=19">19</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=19">19</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=19">GRS 1009-45           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=19">GRS 1009-45           <br>
            N Vel 1993 = MM Vel</a>
         </td>
         <td class="column-coord-list">
@@ -2056,10 +2057,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:bold>
         <td class="column-id-list">
-           <a href="info.php?id=18">18</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=18">18</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=18">GRS 1915+105           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=18">GRS 1915+105           <br>
            V1487 Aql</a>
         </td>
         <td class="column-coord-list">
@@ -2092,10 +2093,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:bold>
         <td class="column-id-list">
-           <a href="info.php?id=17">17</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=17">17</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=17">GRO J0422+32           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=17">GRO J0422+32           <br>
            V518 Per</a>
         </td>
         <td class="column-coord-list">
@@ -2128,10 +2129,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:bold>
         <td class="column-id-list">
-           <a href="info.php?id=16">16</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=16">16</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=16">GRS 1124-684           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=16">GRS 1124-684           <br>
            N Mus 1991 = GU Mus</a>
         </td>
         <td class="column-coord-list">
@@ -2164,10 +2165,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:bold>
         <td class="column-id-list">
-           <a href="info.php?id=15">15</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=15">15</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=15">GS 2023+338           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=15">GS 2023+338           <br>
            V404 Cyg</a>
         </td>
         <td class="column-coord-list">
@@ -2200,10 +2201,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=14">14</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=14">14</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=14">GS 1734-275           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=14">GS 1734-275           <br>
            GRO 1735-27 = KS 1732-273</a>
         </td>
         <td class="column-coord-list">
@@ -2235,10 +2236,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:bold>
         <td class="column-id-list">
-           <a href="info.php?id=13">13</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=13">13</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=13">GS 2000+251           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=13">GS 2000+251           <br>
            QZ Vul</a>
         </td>
         <td class="column-coord-list">
@@ -2271,10 +2272,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:bold>
         <td class="column-id-list">
-           <a href="info.php?id=12">12</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=12">12</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=12">GS 1354-64           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=12">GS 1354-64           <br>
            BW Cir</a>
         </td>
         <td class="column-coord-list">
@@ -2307,10 +2308,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=11">11</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=11">11</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=11">EXO 1846-031           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=11">EXO 1846-031           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -2342,10 +2343,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=10">10</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=10">10</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=10">SLX 1746-331           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=10">SLX 1746-331           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -2377,10 +2378,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:bold>
         <td class="column-id-list">
-           <a href="info.php?id=9">9</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=9">9</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=9">H 1705-250           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=9">H 1705-250           <br>
            N Oph 1977 = V2107 Oph</a>
         </td>
         <td class="column-coord-list">
@@ -2413,10 +2414,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=8">8</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=8">8</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=8">H 1743-322           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=8">H 1743-322           <br>
            XTE J1746-322 = IGR J17464-3213</a>
         </td>
         <td class="column-coord-list">
@@ -2448,10 +2449,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:bold>
         <td class="column-id-list">
-           <a href="info.php?id=7">7</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=7">7</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=7">3A 0620-003           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=7">3A 0620-003           <br>
            N Mon 1975 = V616 Mon</a>
         </td>
         <td class="column-coord-list">
@@ -2484,10 +2485,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=6">6</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=6">6</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=6">3A 1524-617           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=6">3A 1524-617           <br>
            KY TrA</a>
         </td>
         <td class="column-coord-list">
@@ -2519,10 +2520,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:bold>
         <td class="column-id-list">
-           <a href="info.php?id=5">5</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=5">5</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=5">1H 1659-487           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=5">1H 1659-487           <br>
            GX 339-4 = V821 Ara</a>
         </td>
         <td class="column-coord-list">
@@ -2555,10 +2556,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=4">4</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=4">4</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=4">4U 1755-338           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=4">4U 1755-338           <br>
            V4134 Sgr</a>
         </td>
         <td class="column-coord-list">
@@ -2590,10 +2591,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:bold>
         <td class="column-id-list">
-           <a href="info.php?id=3">3</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=3">3</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=3">4U 1543-475           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=3">4U 1543-475           <br>
            IL Lup</a>
         </td>
         <td class="column-coord-list">
@@ -2626,10 +2627,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=2">2</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=2">2</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=2">4U 1630-472           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=2">4U 1630-472           <br>
            Nor X-1</a>
         </td>
         <td class="column-coord-list">
@@ -2661,10 +2662,10 @@ if (!isSotonIP($user_ip)) {
   <tbody>
      <tr style=font-weight:normal>
         <td class="column-id-list">
-           <a href="info.php?id=1">1</a>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=1">1</a>
         </td>
         <td class="column-name-list">
-           <a href="info.php?id=1">Cen X-2           <br>
+           <a href="https://astro.puc.cl/BlackCAT/info.php?id=1">Cen X-2           <br>
            </a>
         </td>
         <td class="column-coord-list">
@@ -2695,7 +2696,7 @@ if (!isSotonIP($user_ip)) {
 </div>
 
 <h5>
-   Please <a href='citation.php'>acknowledge</a> the use of this catalogue in any published work you derive from it.</h5>
+   Please <a href='https://astro.puc.cl/BlackCAT/citation.php'>acknowledge</a> the use of this catalogue in any published work you derive from it.</h5>
 
 <hr>
 <small>
