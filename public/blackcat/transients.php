@@ -1,4 +1,9 @@
 <?php
+// Prevent caching by CDN and browser
+header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+header("Cache-Control: post-check=0, pre-check=0", false);
+header("Pragma: no-cache");
+
 // Function to check if the visitor is within the Southampton network ranges
 function isSotonIP($ip) {
     // Local hostnames (for local testing)
